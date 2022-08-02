@@ -1,0 +1,259 @@
+.NavbarContainer{
+    width: 100vw;
+}
+.navbartop{
+    background-color: #431481;
+    color: white;
+    width: 100%;
+}
+.navbar-bottom{
+    background-color: #431481;
+}
+.addproduct{
+    font-size: 20px;
+}
+.breadcrumb-row{
+    font-size: 15px;
+}
+.dashboard-link{
+    color:rgb(198, 198, 198) !important;
+    
+}
+.product-card-div{
+    margin-left: 0px;
+  } 
+  
+  .product-cards {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    /* margin-left: 5px; */
+    /* margin-bottom: 10px; */
+    border: none;
+    cursor: pointer;
+    position: relative;
+    margin-top: 12px;
+    border: solid 1px #ddd;
+    border-radius: 20px!important;
+    overflow: hidden;
+    transition-duration: 0.5s;
+  }
+  
+  .product-cards:hover  .product-image{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .product-cards:hover{
+    box-shadow: -3px 8px 22px 3px rgb(161,161,161,0.8);
+   
+  }
+  
+  .product-container{
+    height: 84vh;
+    overflow-y: auto;
+    padding: 0px 30px !important;
+    padding-bottom: 49px !important;
+  }
+  .product-title{
+    font-weight: bolder;
+  }
+  .product-category{
+   font-weight: 500;
+   font-size: 15px;
+  }
+  
+  .product-MRP{
+    width: 80px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .product-final-price{
+    width: 80px;
+    padding-top: 4px;
+   text-align: center;
+    height: 30px;
+    font-weight: bolder;
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #462077;
+    border-radius: 20px;
+  }
+  
+  .product-offer{
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 20px;
+    text-align: center;
+    background-color: Red;
+    color: white;
+    font-weight: 700;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    padding-top: 3px;
+  
+  }
+  
+  .edit-delete-buttons{
+    position: absolute;
+    z-index:10;
+    right: -5px;
+    top: 3px;
+    display: block;
+    background-color: transparent;
+  
+    padding-top: 0px;
+  
+    transition: all 0.1s ease-in;
+      visibility: hidden;
+  }
+  .edit-button,.delete-button{
+    width: 45px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: none;
+    opacity: 1;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 50%;
+  margin-top: 5px;
+  }
+  
+  .edit-button:hover,.delete-button:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  .delete-button{
+  color: Red;
+  }
+  
+  .product-cards:hover  .edit-delete-buttons{
+    display: block;
+    transform: translateX(-20px);
+   visibility: visible;
+  
+  }
+  
+  
+  
+  .product-rating{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  
+  .product-features{
+     
+     padding-left: 50px;
+     font-size: 14px;
+     background-color: white;
+     visibility: hidden;
+  
+     
+  }
+  
+  .product-cards:hover .product-features{
+    visibility: visible;
+  }
+   .modal-container{
+    width: 70vw;
+    height: 80vh;
+  }
+  
+  .modal-dialog {
+    width: 100%;
+    height: 100%;
+    max-width: 70vw!important;
+    max-height: 80vh!important;
+    margin: 0px;
+   
+  }
+  .modal-content{
+    height: 100%;
+  }
+  .modal{
+    top: 10vh;
+    left: 15vw;
+  }
+   .modal-product-title{
+    padding: 8px;
+      font-size: 22px;
+      font-weight: 700;
+  }
+  .modal-product-details{
+    padding: 0px;
+    height: 100%;
+  }
+  .modal-product-id{
+    padding-left: 8px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: rgb(124, 124, 124);
+    opacity: 0.7;
+    border-radius: 10px;
+  
+  }
+  .modal-product-category{
+    padding-left: 8px;
+  }
+  .modal-product-description{
+    padding: 8px;
+    font-size: 13px;
+    height: 40%;
+  }
+  .modal-product-price{
+    font-weight: 700;
+  }
+  .modal-product-stock{
+    padding-left: 8px;
+  }
+  
+  .modal-product-creation-date{
+    padding-left: 8px;
+  }
+  
+  .product-modal-body{
+    height: 50%;
+  }
+  .product-modal-body-container{
+    height: 100%;
+  }
+  .product-modal-body-row{
+    height: 100%;
+  }
+  .product-modal-left{
+    height: 100%;
+  }
+  .product-modal-left-container{
+    height: 100%;
+  }
+  .modal-large-image{
+    height: 75%;
+    overflow: hidden;
+  }
+  .large-image-container{
+    overflow: hidden;
+    height: 100%;
+  }
+  .product-modal-image-list{
+    height: 25%;
+  }
+  .product-modal-small-images{
+    height: 100%;
+  }
+  .product-modal-small-image{
+    height: 100%;
+    overflow: hidden;
+  }
+  .product-all-images{
+    object-fit: cover;
+  }
+
+
+
