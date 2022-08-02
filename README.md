@@ -1,7 +1,7 @@
 # loginandregister
 This is a login and register project with an ecommerce homepage .
 <p align="center">
-<img src="https://github.com/thisismemukul/codeworld/blob/master/demo.gif" alt="CodeWorld" title="CodeWorld show gif" width="500"/>
+<img src="https://github.com/aayushi-naruka/loginandregister/blob/main/demo.gif" alt="loginregister" title="loginregister show gif" width="500"/>
 </p>
 <h4>* Tech Stack used:</h4>
 <ul>
